@@ -1,0 +1,84 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/cricketsBackGround.png');
+}
+
+.headerText {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    border: 1px solid #61b41e;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.input {
+    margin-bottom: 2rem;
+    width: 25rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid #61b41e;
+    outline: none;
+    padding-left: 0.5rem;
+}
+
+.generalButton {
+    width: 25rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: 2px solid #61b41e;
+    outline: none;
+    background-color: #61b41e;
+    color: white;
+    cursor: pointer;
+}
+
+.generalButton:hover {
+    background-color: #428110;
+    border-color: #428110;
+}
+
+.otherButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.google {
+    margin-top: 1rem;
+    width: 25rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: 2px solid #61b41e;
+    cursor: pointer;
+}
+
+.googleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    svg {
+        margin-right: 1rem;
+    }
+}

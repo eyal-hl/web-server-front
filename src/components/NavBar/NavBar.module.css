@@ -1,0 +1,21 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 5rem;
+}
+
+.homeImg {
+    width: 5rem;
+
+    margin-left: 1rem;
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
