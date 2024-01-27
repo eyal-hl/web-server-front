@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "text": "this is a post",
+            "user_name": "bobo",
+            "imagePath": "../assets/happyCricket.png",
+            "isLiked": false
+        },
+        {
+            "text": "this is an another post",
+            "user_name": "reee",
+            "imagePath": "../assets/sadCricket.png",
+            "isLiked": true
+        },
+        {
+            "text": "cricket",
+            "user_name": "weee",
+            "imagePath": "../assets/homeButton.png",
+            "isLiked": false
+        }
+    ]
+}

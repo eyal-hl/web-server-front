@@ -10,7 +10,6 @@ const SignUp = () => {
     const [confirmPasswordState, setConfirmPasswordState] = React.useState('')
     const [usernameState, setUsernameState] = React.useState('')
     const [imageState, setImageState] = React.useState('')
-    const [previewImage, setPreviewImage] = React.useState('')
     const [isPasswordValid, setIsPasswordValid] = React.useState(true)
 
     const handleSubmit = () => {
@@ -39,7 +38,6 @@ const SignUp = () => {
             reader.onload = (e) => {
                 if (e.target) {
                     setImageState(e.target.result as string)
-                    setPreviewImage(e.target.result as string)
                 }
             }
             reader.readAsDataURL(e.target.files[0])
@@ -112,9 +110,9 @@ const SignUp = () => {
                             className={styles.imageInput}
                         />
                     </div>
-                    {previewImage && (
+                    {imageState && (
                         <img
-                            src={previewImage}
+                            src={imageState}
                             alt="Preview"
                             className={styles.previewImage}
                         />
