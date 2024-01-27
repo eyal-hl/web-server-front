@@ -1,6 +1,7 @@
 .app {
     display: flex;
     height: 100%;
+    gap: 1rem;
     flex-direction: column;
 }
 .background {
