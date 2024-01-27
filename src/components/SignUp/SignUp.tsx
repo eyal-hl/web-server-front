@@ -11,13 +11,26 @@ const SignUp = () => {
     const [usernameState, setUsernameState] = React.useState('')
     const [imageState, setImageState] = React.useState('')
     const [previewImage, setPreviewImage] = React.useState('')
+    const [isPasswordValid, setIsPasswordValid] = React.useState(true)
 
     const handleSubmit = () => {
-        // const data = new FormData(event.currentTarget)
-        // console.log({
-        //     email: data.get('email'),
-        //     password: data.get('password'),
-        // })
+        if (passwordState !== confirmPasswordState) {
+            setIsPasswordValid(false)
+            return
+        }
+
+        // Rest of the form submission logic
+    }
+
+    const handlePasswordChanged = () => {
+        if (
+            confirmPasswordState === passwordState &&
+            confirmPasswordState !== ''
+        ) {
+            setIsPasswordValid(true)
+        } else {
+            setIsPasswordValid(false)
+        }
     }
 
     const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -38,7 +51,7 @@ const SignUp = () => {
             <div className={styles.wrapper}>
                 <form onSubmit={handleSubmit} className={styles.form}>
                     <div className={styles.headerText}>Sign up</div>
-                    <div>
+                    <div className={styles.bigInput}>
                         <input
                             name="username"
                             placeholder="Username"
@@ -56,7 +69,7 @@ const SignUp = () => {
                             onChange={(e) => setEmailState(e.target.value)}
                         />
                     </div>
-                    <div>
+                    <div className={styles.bigInput}>
                         <input
                             name="password"
                             placeholder="Password"
@@ -66,7 +79,10 @@ const SignUp = () => {
                                 styles.input,
                                 styles.password
                             )}
-                            onChange={(e) => setPasswordState(e.target.value)}
+                            onChange={(e) => {
+                                setPasswordState(e.target.value)
+                                handlePasswordChanged()
+                            }}
                         />
                         <input
                             name="confirmPassword"
@@ -75,11 +91,13 @@ const SignUp = () => {
                             value={confirmPasswordState}
                             className={classNames(
                                 styles.input,
-                                styles.password
+                                styles.password,
+                                { [styles.invalid]: !isPasswordValid }
                             )}
-                            onChange={(e) =>
+                            onChange={(e) => {
                                 setConfirmPasswordState(e.target.value)
-                            }
+                                handlePasswordChanged()
+                            }}
                         />
                     </div>
                     <div className={styles.imageInputWrapper}>

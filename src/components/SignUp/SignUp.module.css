@@ -105,3 +105,12 @@
 .imageInputText {
     font-size: 1.5rem;
 }
+
+.invalid {
+    border: 2px solid red !important;
+}
+
+.bigInput {
+    display: flex;
+    gap: 2rem;
+}
