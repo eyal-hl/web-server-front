@@ -4,19 +4,22 @@
             "text": "this is a post",
             "user_name": "bobo",
             "imagePath": "../assets/happyCricket.png",
-            "isLiked": false
+            "isLiked": false,
+            "id": 1
         },
         {
             "text": "this is an another post",
             "user_name": "reee",
             "imagePath": "../assets/sadCricket.png",
-            "isLiked": true
+            "isLiked": true,
+            "id": 2
         },
         {
             "text": "cricket",
             "user_name": "weee",
             "imagePath": "../assets/homeButton.png",
-            "isLiked": false
+            "isLiked": false,
+            "id": 3
         }
     ]
 }
