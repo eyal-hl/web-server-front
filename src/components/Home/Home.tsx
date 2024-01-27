@@ -1,10 +1,11 @@
 import styles from './Home.module.css';
-import { propPost } from '../Post/Post';
+import { PostProps } from '../Post/Post';
 import { useEffect, useState } from 'react';
+import Post from '../Post/Post';
 import * as Api from '../../utils/api';
 
 const Home = () => {
-    const [posts, setPosts] = useState<propPost[]>([]);
+    const [posts, setPosts] = useState<PostProps[]>([]);
     useEffect(() => {
         getPosts();
     }, []);
@@ -12,7 +13,21 @@ const Home = () => {
         const data = await Api.getPosts();
         setPosts(data);
     };
-    return <div className={styles.home}>Home</div>;
+
+    const renderPosts = posts.map((post) => {
+        return (
+            <Post
+                text={post.text}
+                user_name={post.user_name}
+                imagePath={post.imagePath}
+                isLiked={post.isLiked}
+                key={post.id}
+                id={post.id}
+            />
+        );
+    });
+
+    return <div className={styles.home}>{renderPosts}</div>;
 };
 
 export default Home;
