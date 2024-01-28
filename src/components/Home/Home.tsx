@@ -17,17 +17,27 @@ const Home = () => {
     const renderPosts = posts.map((post) => {
         return (
             <Post
-                text={post.text}
-                user_name={post.user_name}
-                imagePath={post.imagePath}
-                isLiked={post.isLiked}
+                {...post}
                 key={post.id}
-                id={post.id}
+                onLikeClick={() => handleLikeClick(post.id)}
             />
         );
     });
 
-    return <div className={styles.home}>{renderPosts}</div>;
+    const handleLikeClick = (id: number) => {
+        const newPosts = posts.map((post) => {
+            if (post.id === id) {
+                return {
+                    ...post,
+                    isLiked: !post.isLiked,
+                };
+            }
+            return post;
+        });
+        setPosts(newPosts);
+    }
+
+    return <div className={styles.home}><div className={styles.postsWrapper}>{renderPosts}</div></div>;
 };
 
 export default Home;
