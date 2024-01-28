@@ -89,3 +89,8 @@
         height: 4rem;
     }
 }
+
+.like:hover{
+    cursor: pointer;
+    scale: 1.3;
+}
