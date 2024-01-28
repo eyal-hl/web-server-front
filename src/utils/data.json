@@ -1,22 +1,22 @@
 {
     "posts": [
         {
-            "text": "this is a post",
-            "user_name": "bobo",
+            "text": "post text",
+            "userName": "author",
             "imagePath": "../assets/happyCricket.png",
             "isLiked": false,
             "id": 1
         },
         {
             "text": "this is an another post",
-            "user_name": "reee",
+            "userName": "reee",
             "imagePath": "../assets/sadCricket.png",
             "isLiked": true,
             "id": 2
         },
         {
             "text": "cricket",
-            "user_name": "weee",
+            "userName": "weee",
             "imagePath": "../assets/homeButton.png",
             "isLiked": false,
             "id": 3

@@ -1,0 +1,404 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "userName": "dmustoe0",
+            "text": "aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec",
+            "imagePath": "http://dummyimage.com/703x939.png/dddddd/000000",
+            "isLiked": true,
+            "commentsAmount": 58
+        },
+        {
+            "id": 2,
+            "userName": "sgeggus1",
+            "text": "sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo",
+            "imagePath": "http://dummyimage.com/379x127.png/cc0000/ffffff",
+            "isLiked": true,
+            "commentsAmount": 75
+        },
+        {
+            "id": 3,
+            "userName": "mbraisby2",
+            "text": "volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper",
+            "imagePath": "http://dummyimage.com/930x162.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 74
+        },
+        {
+            "id": 4,
+            "userName": "jpetts3",
+            "text": "integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia",
+            "imagePath": "http://dummyimage.com/450x816.png/cc0000/ffffff",
+            "isLiked": false,
+            "commentsAmount": 32
+        },
+        {
+            "id": 5,
+            "userName": "cdarth4",
+            "text": "luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at",
+            "imagePath": "http://dummyimage.com/424x333.png/cc0000/ffffff",
+            "isLiked": true,
+            "commentsAmount": 39
+        },
+        {
+            "id": 6,
+            "userName": "nlandsman5",
+            "text": "ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum",
+            "imagePath": "http://dummyimage.com/904x690.png/dddddd/000000",
+            "isLiked": false,
+            "commentsAmount": 10
+        },
+        {
+            "id": 7,
+            "userName": "bcogswell6",
+            "text": "diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in",
+            "imagePath": "http://dummyimage.com/693x970.png/dddddd/000000",
+            "isLiked": false,
+            "commentsAmount": 32
+        },
+        {
+            "id": 8,
+            "userName": "dperin7",
+            "text": "luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus",
+            "imagePath": "http://dummyimage.com/492x465.png/ff4444/ffffff",
+            "isLiked": false,
+            "commentsAmount": 64
+        },
+        {
+            "id": 9,
+            "userName": "vcharlo8",
+            "text": "id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas",
+            "imagePath": "http://dummyimage.com/911x378.png/dddddd/000000",
+            "isLiked": true,
+            "commentsAmount": 6
+        },
+        {
+            "id": 10,
+            "userName": "rbeevor9",
+            "text": "id luctus nec molestie sed justo pellentesque viverra pede ac diam cras",
+            "imagePath": "http://dummyimage.com/267x593.png/cc0000/ffffff",
+            "isLiked": true,
+            "commentsAmount": 81
+        },
+        {
+            "id": 11,
+            "userName": "zrivalanda",
+            "text": "euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis",
+            "imagePath": "http://dummyimage.com/154x597.png/dddddd/000000",
+            "isLiked": true,
+            "commentsAmount": 12
+        },
+        {
+            "id": 12,
+            "userName": "wcressyb",
+            "text": "mauris sit amet eros suspendisse accumsan tortor quis turpis sed",
+            "imagePath": "http://dummyimage.com/119x342.png/cc0000/ffffff",
+            "isLiked": false,
+            "commentsAmount": 66
+        },
+        {
+            "id": 13,
+            "userName": "hskelcherc",
+            "text": "etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras",
+            "imagePath": "http://dummyimage.com/612x227.png/ff4444/ffffff",
+            "isLiked": true,
+            "commentsAmount": 59
+        },
+        {
+            "id": 14,
+            "userName": "kmccawleyd",
+            "text": "eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet",
+            "imagePath": "http://dummyimage.com/499x168.png/dddddd/000000",
+            "isLiked": true,
+            "commentsAmount": 1
+        },
+        {
+            "id": 15,
+            "userName": "dthatchame",
+            "text": "duis bibendum morbi non quam nec dui luctus rutrum nulla tellus",
+            "imagePath": "http://dummyimage.com/910x335.png/dddddd/000000",
+            "isLiked": false,
+            "commentsAmount": 99
+        },
+        {
+            "id": 16,
+            "userName": "dridgewellf",
+            "text": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio",
+            "imagePath": "http://dummyimage.com/987x110.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 1
+        },
+        {
+            "id": 17,
+            "userName": "wdrewesg",
+            "text": "vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan",
+            "imagePath": "http://dummyimage.com/799x633.png/ff4444/ffffff",
+            "isLiked": true,
+            "commentsAmount": 91
+        },
+        {
+            "id": 18,
+            "userName": "slouchh",
+            "text": "sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris",
+            "imagePath": "http://dummyimage.com/614x188.png/dddddd/000000",
+            "isLiked": false,
+            "commentsAmount": 82
+        },
+        {
+            "id": 19,
+            "userName": "lpiroueti",
+            "text": "ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at",
+            "imagePath": "http://dummyimage.com/992x693.png/cc0000/ffffff",
+            "isLiked": true,
+            "commentsAmount": 36
+        },
+        {
+            "id": 20,
+            "userName": "ostrodderj",
+            "text": "varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus",
+            "imagePath": "http://dummyimage.com/998x248.png/cc0000/ffffff",
+            "isLiked": false,
+            "commentsAmount": 44
+        },
+        {
+            "id": 21,
+            "userName": "kgollandk",
+            "text": "nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit",
+            "imagePath": "http://dummyimage.com/780x419.png/ff4444/ffffff",
+            "isLiked": true,
+            "commentsAmount": 87
+        },
+        {
+            "id": 22,
+            "userName": "bfulkl",
+            "text": "sodales sed tincidunt eu felis fusce posuere felis sed lacus",
+            "imagePath": "http://dummyimage.com/462x268.png/5fa2dd/ffffff",
+            "isLiked": true,
+            "commentsAmount": 19
+        },
+        {
+            "id": 23,
+            "userName": "modoireidhm",
+            "text": "orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur",
+            "imagePath": "http://dummyimage.com/767x462.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 79
+        },
+        {
+            "id": 24,
+            "userName": "krechern",
+            "text": "sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit",
+            "imagePath": "http://dummyimage.com/912x691.png/ff4444/ffffff",
+            "isLiked": false,
+            "commentsAmount": 36
+        },
+        {
+            "id": 25,
+            "userName": "mrapsono",
+            "text": "consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis",
+            "imagePath": "http://dummyimage.com/358x123.png/cc0000/ffffff",
+            "isLiked": true,
+            "commentsAmount": 63
+        },
+        {
+            "id": 26,
+            "userName": "zkannp",
+            "text": "condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque",
+            "imagePath": "http://dummyimage.com/929x348.png/ff4444/ffffff",
+            "isLiked": false,
+            "commentsAmount": 38
+        },
+        {
+            "id": 27,
+            "userName": "kbewlayq",
+            "text": "eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula",
+            "imagePath": "http://dummyimage.com/634x871.png/cc0000/ffffff",
+            "isLiked": false,
+            "commentsAmount": 66
+        },
+        {
+            "id": 28,
+            "userName": "kdarycottr",
+            "text": "nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+            "imagePath": "http://dummyimage.com/196x464.png/ff4444/ffffff",
+            "isLiked": true,
+            "commentsAmount": 14
+        },
+        {
+            "id": 29,
+            "userName": "bgisleberts",
+            "text": "sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem",
+            "imagePath": "http://dummyimage.com/258x268.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 100
+        },
+        {
+            "id": 30,
+            "userName": "zyannikovt",
+            "text": "sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus",
+            "imagePath": "http://dummyimage.com/587x207.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 65
+        },
+        {
+            "id": 31,
+            "userName": "wespaderou",
+            "text": "a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem",
+            "imagePath": "http://dummyimage.com/500x456.png/ff4444/ffffff",
+            "isLiked": false,
+            "commentsAmount": 56
+        },
+        {
+            "id": 32,
+            "userName": "yessbergerv",
+            "text": "neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo",
+            "imagePath": "http://dummyimage.com/771x517.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 34
+        },
+        {
+            "id": 33,
+            "userName": "rceaplenw",
+            "text": "venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat",
+            "imagePath": "http://dummyimage.com/520x514.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 74
+        },
+        {
+            "id": 34,
+            "userName": "mdittsonx",
+            "text": "ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti",
+            "imagePath": "http://dummyimage.com/105x460.png/dddddd/000000",
+            "isLiked": true,
+            "commentsAmount": 7
+        },
+        {
+            "id": 35,
+            "userName": "zwoodburny",
+            "text": "pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas",
+            "imagePath": "http://dummyimage.com/453x914.png/ff4444/ffffff",
+            "isLiked": true,
+            "commentsAmount": 31
+        },
+        {
+            "id": 36,
+            "userName": "arichelz",
+            "text": "justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis",
+            "imagePath": "http://dummyimage.com/435x148.png/ff4444/ffffff",
+            "isLiked": true,
+            "commentsAmount": 75
+        },
+        {
+            "id": 37,
+            "userName": "sburleton10",
+            "text": "pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna",
+            "imagePath": "http://dummyimage.com/894x663.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 61
+        },
+        {
+            "id": 38,
+            "userName": "sdiruggiero11",
+            "text": "placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede",
+            "imagePath": "http://dummyimage.com/454x319.png/dddddd/000000",
+            "isLiked": false,
+            "commentsAmount": 61
+        },
+        {
+            "id": 39,
+            "userName": "jebben12",
+            "text": "molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur",
+            "imagePath": "http://dummyimage.com/456x348.png/dddddd/000000",
+            "isLiked": true,
+            "commentsAmount": 56
+        },
+        {
+            "id": 40,
+            "userName": "sridout13",
+            "text": "mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum",
+            "imagePath": "http://dummyimage.com/467x126.png/dddddd/000000",
+            "isLiked": true,
+            "commentsAmount": 24
+        },
+        {
+            "id": 41,
+            "userName": "ateaze14",
+            "text": "penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum",
+            "imagePath": "http://dummyimage.com/147x539.png/cc0000/ffffff",
+            "isLiked": true,
+            "commentsAmount": 57
+        },
+        {
+            "id": 42,
+            "userName": "ragates15",
+            "text": "odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit",
+            "imagePath": "http://dummyimage.com/171x443.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 79
+        },
+        {
+            "id": 43,
+            "userName": "rgoldman16",
+            "text": "eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a",
+            "imagePath": "http://dummyimage.com/674x297.png/ff4444/ffffff",
+            "isLiked": true,
+            "commentsAmount": 65
+        },
+        {
+            "id": 44,
+            "userName": "ddifrancesco17",
+            "text": "augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum",
+            "imagePath": "http://dummyimage.com/449x218.png/dddddd/000000",
+            "isLiked": false,
+            "commentsAmount": 15
+        },
+        {
+            "id": 45,
+            "userName": "nincogna18",
+            "text": "magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
+            "imagePath": "http://dummyimage.com/544x815.png/dddddd/000000",
+            "isLiked": true,
+            "commentsAmount": 54
+        },
+        {
+            "id": 46,
+            "userName": "cgilbert19",
+            "text": "vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum",
+            "imagePath": "http://dummyimage.com/681x652.png/cc0000/ffffff",
+            "isLiked": true,
+            "commentsAmount": 50
+        },
+        {
+            "id": 47,
+            "userName": "tdsouza1a",
+            "text": "sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus",
+            "imagePath": "http://dummyimage.com/745x199.png/cc0000/ffffff",
+            "isLiked": false,
+            "commentsAmount": 47
+        },
+        {
+            "id": 48,
+            "userName": "bcristofari1b",
+            "text": "curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla",
+            "imagePath": "http://dummyimage.com/759x754.png/5fa2dd/ffffff",
+            "isLiked": false,
+            "commentsAmount": 79
+        },
+        {
+            "id": 49,
+            "userName": "rcrinage1c",
+            "text": "lobortis vel dapibus at diam nam tristique tortor eu pede",
+            "imagePath": "http://dummyimage.com/745x770.png/cc0000/ffffff",
+            "isLiked": true,
+            "commentsAmount": 46
+        },
+        {
+            "id": 50,
+            "userName": "hburnside1d",
+            "text": "lorem quisque ut erat curabitur gravida nisi at nibh in",
+            "imagePath": "http://dummyimage.com/927x217.png/cc0000/ffffff",
+            "isLiked": false,
+            "commentsAmount": 88
+        }
+    ]
+}
