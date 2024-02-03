@@ -1,48 +1,49 @@
-import * as React from 'react'
-import styles from './SignUp.module.css'
-import classNames from 'classnames'
-import { FcGoogle } from 'react-icons/fc'
-import { Link } from 'react-router-dom'
+import * as React from 'react';
+import styles from './SignUp.module.css';
+import classNames from 'classnames';
+import { FcGoogle } from 'react-icons/fc';
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
-    const [emailState, setEmailState] = React.useState('')
-    const [passwordState, setPasswordState] = React.useState('')
-    const [confirmPasswordState, setConfirmPasswordState] = React.useState('')
-    const [usernameState, setUsernameState] = React.useState('')
-    const [imageState, setImageState] = React.useState('')
-    const [isPasswordValid, setIsPasswordValid] = React.useState(true)
+    const [emailState, setEmailState] = React.useState('');
+    const [passwordState, setPasswordState] = React.useState('');
+    const [confirmPasswordState, setConfirmPasswordState] = React.useState('');
+    const [usernameState, setUsernameState] = React.useState('');
+    const [imageState, setImageState] = React.useState('');
+    const [isPasswordValid, setIsPasswordValid] = React.useState(true);
 
-    const handleSubmit = () => {
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
         if (passwordState !== confirmPasswordState) {
-            setIsPasswordValid(false)
-            return
+            setIsPasswordValid(false);
+            return;
         }
 
         // Rest of the form submission logic
-    }
+    };
 
-    const handlePasswordChanged = () => {
-        if (
-            confirmPasswordState === passwordState &&
-            confirmPasswordState !== ''
-        ) {
-            setIsPasswordValid(true)
+    const handlePasswordChanged = (
+        password: string,
+        confirmPassword: string
+    ) => {
+        if (confirmPassword === password && confirmPassword !== '') {
+            setIsPasswordValid(true);
         } else {
-            setIsPasswordValid(false)
+            setIsPasswordValid(false);
         }
-    }
+    };
 
     const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (e.target.files && e.target.files[0]) {
-            const reader = new FileReader()
+            const reader = new FileReader();
             reader.onload = (e) => {
                 if (e.target) {
-                    setImageState(e.target.result as string)
+                    setImageState(e.target.result as string);
                 }
-            }
-            reader.readAsDataURL(e.target.files[0])
+            };
+            reader.readAsDataURL(e.target.files[0]);
         }
-    }
+    };
 
     return (
         <div className={styles.signUp}>
@@ -78,8 +79,11 @@ const SignUp = () => {
                                 styles.password
                             )}
                             onChange={(e) => {
-                                setPasswordState(e.target.value)
-                                handlePasswordChanged()
+                                setPasswordState(e.target.value);
+                                handlePasswordChanged(
+                                    e.target.value,
+                                    confirmPasswordState
+                                );
                             }}
                         />
                         <input
@@ -93,8 +97,11 @@ const SignUp = () => {
                                 { [styles.invalid]: !isPasswordValid }
                             )}
                             onChange={(e) => {
-                                setConfirmPasswordState(e.target.value)
-                                handlePasswordChanged()
+                                setConfirmPasswordState(e.target.value);
+                                handlePasswordChanged(
+                                    passwordState,
+                                    e.target.value
+                                );
                             }}
                         />
                     </div>
@@ -138,7 +145,7 @@ const SignUp = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default SignUp
+export default SignUp;
